@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818BC782285174710021D1B0 /* pgTestSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC781285174710021D1B0 /* pgTestSwiftUIApp.swift */; };
+		818BC784285174710021D1B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC783285174710021D1B0 /* ContentView.swift */; };
+		818BC786285174740021D1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818BC785285174740021D1B0 /* Assets.xcassets */; };
+		818BC789285174740021D1B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818BC788285174740021D1B0 /* Preview Assets.xcassets */; };
+		818BC79028517F7D0021D1B0 /* DefaultPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC78F28517F7D0021D1B0 /* DefaultPaymentView.swift */; };
+		818BC793285187780021D1B0 /* TotalPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC792285187780021D1B0 /* TotalPaymentView.swift */; };
+		818BC7952851878E0021D1B0 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC7942851878E0021D1B0 /* SubscriptionView.swift */; };
+		818BC7972851879F0021D1B0 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC7962851879F0021D1B0 /* AuthenticationView.swift */; };
+		818BC799285187AD0021D1B0 /* BioPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC798285187AD0021D1B0 /* BioPaymentView.swift */; };
+		818BC79B285187BA0021D1B0 /* PasswordPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC79A285187BA0021D1B0 /* PasswordPaymentView.swift */; };
+		818BC79D285187C90021D1B0 /* PasswordUIPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC79C285187C90021D1B0 /* PasswordUIPaymentView.swift */; };
+		818BC79F285187D60021D1B0 /* WebAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC79E285187D60021D1B0 /* WebAppView.swift */; };
+		818BC7A1285188780021D1B0 /* SubscriptionBootpayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC7A0285188780021D1B0 /* SubscriptionBootpayView.swift */; };
+		818BC7A62851C1A60021D1B0 /* BootpayRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC7A52851C1A60021D1B0 /* BootpayRest.swift */; };
+		818BC7A82851C2400021D1B0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818BC7A72851C2400021D1B0 /* ViewModel.swift */; };
+		C48434576E0B4B826CBC850C /* Pods_pgTestSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4883F7AE218480AD9F0648 /* Pods_pgTestSwiftUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DC8E160A410971D54949859 /* Pods-pgTestSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pgTestSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		818BC77E285174710021D1B0 /* pgTestSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pgTestSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818BC781285174710021D1B0 /* pgTestSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pgTestSwiftUIApp.swift; sourceTree = "<group>"; };
+		818BC783285174710021D1B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		818BC785285174740021D1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818BC788285174740021D1B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		818BC78F28517F7D0021D1B0 /* DefaultPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPaymentView.swift; sourceTree = "<group>"; };
+		818BC7912851868B0021D1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		818BC792285187780021D1B0 /* TotalPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPaymentView.swift; sourceTree = "<group>"; };
+		818BC7942851878E0021D1B0 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		818BC7962851879F0021D1B0 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		818BC798285187AD0021D1B0 /* BioPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioPaymentView.swift; sourceTree = "<group>"; };
+		818BC79A285187BA0021D1B0 /* PasswordPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordPaymentView.swift; sourceTree = "<group>"; };
+		818BC79C285187C90021D1B0 /* PasswordUIPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUIPaymentView.swift; sourceTree = "<group>"; };
+		818BC79E285187D60021D1B0 /* WebAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAppView.swift; sourceTree = "<group>"; };
+		818BC7A0285188780021D1B0 /* SubscriptionBootpayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionBootpayView.swift; sourceTree = "<group>"; };
+		818BC7A52851C1A60021D1B0 /* BootpayRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootpayRest.swift; sourceTree = "<group>"; };
+		818BC7A72851C2400021D1B0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DB4883F7AE218480AD9F0648 /* Pods_pgTestSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pgTestSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C0501E85F287F5E0379FA8 /* Pods-pgTestSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pgTestSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818BC77B285174710021D1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48434576E0B4B826CBC850C /* Pods_pgTestSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D92FE4B01A41A6F390EDE39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4C0501E85F287F5E0379FA8 /* Pods-pgTestSwiftUI.debug.xcconfig */,
+				7DC8E160A410971D54949859 /* Pods-pgTestSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		818BC775285174710021D1B0 = {
+			isa = PBXGroup;
+			children = (
+				818BC780285174710021D1B0 /* pgTestSwiftUI */,
+				818BC77F285174710021D1B0 /* Products */,
+				7D92FE4B01A41A6F390EDE39 /* Pods */,
+				889ECEE908177FF094D3DD26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		818BC77F285174710021D1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818BC77E285174710021D1B0 /* pgTestSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818BC780285174710021D1B0 /* pgTestSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				818BC7A42851C1950021D1B0 /* deprecated */,
+				818BC7912851868B0021D1B0 /* Info.plist */,
+				818BC781285174710021D1B0 /* pgTestSwiftUIApp.swift */,
+				818BC783285174710021D1B0 /* ContentView.swift */,
+				818BC78F28517F7D0021D1B0 /* DefaultPaymentView.swift */,
+				818BC792285187780021D1B0 /* TotalPaymentView.swift */,
+				818BC7942851878E0021D1B0 /* SubscriptionView.swift */,
+				818BC7A0285188780021D1B0 /* SubscriptionBootpayView.swift */,
+				818BC7962851879F0021D1B0 /* AuthenticationView.swift */,
+				818BC798285187AD0021D1B0 /* BioPaymentView.swift */,
+				818BC79A285187BA0021D1B0 /* PasswordPaymentView.swift */,
+				818BC79C285187C90021D1B0 /* PasswordUIPaymentView.swift */,
+				818BC79E285187D60021D1B0 /* WebAppView.swift */,
+				818BC785285174740021D1B0 /* Assets.xcassets */,
+				818BC787285174740021D1B0 /* Preview Content */,
+			);
+			path = pgTestSwiftUI;
+			sourceTree = "<group>";
+		};
+		818BC787285174740021D1B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				818BC788285174740021D1B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		818BC7A42851C1950021D1B0 /* deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				818BC7A52851C1A60021D1B0 /* BootpayRest.swift */,
+				818BC7A72851C2400021D1B0 /* ViewModel.swift */,
+			);
+			path = deprecated;
+			sourceTree = "<group>";
+		};
+		889ECEE908177FF094D3DD26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4883F7AE218480AD9F0648 /* Pods_pgTestSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818BC77D285174710021D1B0 /* pgTestSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818BC78C285174740021D1B0 /* Build configuration list for PBXNativeTarget "pgTestSwiftUI" */;
+			buildPhases = (
+				3507A7542A6868D822A7A74A /* [CP] Check Pods Manifest.lock */,
+				818BC77A285174710021D1B0 /* Sources */,
+				818BC77B285174710021D1B0 /* Frameworks */,
+				818BC77C285174710021D1B0 /* Resources */,
+				79AEA11184BE8FD6590C0F9B /* [CP] Embed Pods Frameworks */,
+				7182F7916D5256436B618453 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pgTestSwiftUI;
+			productName = pgTestSwiftUI;
+			productReference = 818BC77E285174710021D1B0 /* pgTestSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818BC776285174710021D1B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					818BC77D285174710021D1B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 818BC779285174710021D1B0 /* Build configuration list for PBXProject "pgTestSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818BC775285174710021D1B0;
+			productRefGroup = 818BC77F285174710021D1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818BC77D285174710021D1B0 /* pgTestSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818BC77C285174710021D1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818BC789285174740021D1B0 /* Preview Assets.xcassets in Resources */,
+				818BC786285174740021D1B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3507A7542A6868D822A7A74A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pgTestSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7182F7916D5256436B618453 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79AEA11184BE8FD6590C0F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pgTestSwiftUI/Pods-pgTestSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818BC77A285174710021D1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818BC79B285187BA0021D1B0 /* PasswordPaymentView.swift in Sources */,
+				818BC79F285187D60021D1B0 /* WebAppView.swift in Sources */,
+				818BC784285174710021D1B0 /* ContentView.swift in Sources */,
+				818BC79028517F7D0021D1B0 /* DefaultPaymentView.swift in Sources */,
+				818BC7A62851C1A60021D1B0 /* BootpayRest.swift in Sources */,
+				818BC7972851879F0021D1B0 /* AuthenticationView.swift in Sources */,
+				818BC7A82851C2400021D1B0 /* ViewModel.swift in Sources */,
+				818BC79D285187C90021D1B0 /* PasswordUIPaymentView.swift in Sources */,
+				818BC793285187780021D1B0 /* TotalPaymentView.swift in Sources */,
+				818BC7A1285188780021D1B0 /* SubscriptionBootpayView.swift in Sources */,
+				818BC7952851878E0021D1B0 /* SubscriptionView.swift in Sources */,
+				818BC799285187AD0021D1B0 /* BioPaymentView.swift in Sources */,
+				818BC782285174710021D1B0 /* pgTestSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		818BC78A285174740021D1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		818BC78B285174740021D1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818BC78D285174740021D1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C0501E85F287F5E0379FA8 /* Pods-pgTestSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pgTestSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ZCWM83NFK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pgTestSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.bootpay.pgTestSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		818BC78E285174740021D1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC8E160A410971D54949859 /* Pods-pgTestSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pgTestSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ZCWM83NFK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pgTestSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.bootpay.pgTestSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818BC779285174710021D1B0 /* Build configuration list for PBXProject "pgTestSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818BC78A285174740021D1B0 /* Debug */,
+				818BC78B285174740021D1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818BC78C285174740021D1B0 /* Build configuration list for PBXNativeTarget "pgTestSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818BC78D285174740021D1B0 /* Debug */,
+				818BC78E285174740021D1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818BC776285174710021D1B0 /* Project object */;
+}

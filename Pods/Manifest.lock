@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (5.6.1)
+  - Bootpay (4.2.8):
+    - CryptoSwift
+    - ObjectMapper
+  - BootpayUI (4.2.9):
+    - Alamofire
+    - Bootpay (~> 4.2.8)
+    - CryptoSwift
+    - JGProgressHUD
+    - ObjectMapper
+    - SCLAlertView
+    - SnapKit
+    - SwiftyJSON
+  - CryptoSwift (1.5.1)
+  - JGProgressHUD (2.2)
+  - ObjectMapper (4.2.0)
+  - SCLAlertView (0.8)
+  - SnapKit (5.6.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Bootpay
+  - BootpayUI
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bootpay
+    - BootpayUI
+    - CryptoSwift
+    - JGProgressHUD
+    - ObjectMapper
+    - SCLAlertView
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Bootpay: 74d264e3ce01ffb083e3c194393f0d3d218676c7
+  BootpayUI: 54a92b065eec7f01ac2ba61433228e5c95129be5
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 745cc9a9b4828244be155f9f461f1589429d039b
+
+COCOAPODS: 1.11.3
