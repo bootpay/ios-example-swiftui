@@ -55,14 +55,15 @@ struct DefaultPaymentView: View {
                     payload.applicationId = "5b8f6a4d396fa665fdc2b5e9" //ios application id
                     #endif
 
-                    payload.pg = "나이스페이"
-                    payload.method = "네이버페이"
+                    payload.pg = "웰컴"
+                    payload.method = "디지털카드"
 
                     payload.price = 1000
                     payload.orderId = String(NSTimeIntervalSince1970)
                     payload.orderName = "테스트 아이템"
 
                     payload.extra = BootExtra()
+                    payload.extra?.separatelyConfirmed = false
     //                        payload.extra?.cardQuota = "6"
 
                     let user = BootUser()
